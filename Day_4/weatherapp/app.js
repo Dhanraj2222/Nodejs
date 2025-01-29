@@ -1,5 +1,5 @@
-const request =require('request')
-
+const request = require('request')
+const geocode = require('./utils.geocode.js')
 // const url = 'http://api.weatherstack.com/current?access_key=ac25792054d8a873b8e529047cf2f76c&query='
 
 // request({url : url , json :true},(error,response) =>{
