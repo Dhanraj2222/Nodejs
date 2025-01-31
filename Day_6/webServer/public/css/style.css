@@ -1,0 +1,40 @@
+/* h1{
+    color: gray;
+}
+
+img{
+    width: 20px;
+} */
+
+body {
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+footer{
+    color: beige;
+    margin-top: 16px;
+    border-top: 1px solid #eeeeee ;
+    padding: 16px 0;
+
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: auto;
+}
+
+header a{
+    color: yellowgreen;
+    margin-right: 16px;
+    text-decoration: underline;
+}

@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    
 </head>
 <body>
     {{>header}}
-    <h1>ANY help!!</h1>
-    <p>{{studyhelp}}</p>
-    <p>{{dailyhelp}}</p>
+    <p>created by {{nam}}</p>
+    <form>
+        <input placeholder="Location">
+        <button>serach</button>
+    </form>
+
+    <p id="message-1"></p>
+    <p id="message-2"></p>
+    {{>footer}}
+
+
+    <script src="/js/app.js"></script>
 </body>
 </html>
