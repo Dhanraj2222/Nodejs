@@ -1,0 +1,52 @@
+#  http://localhost:3005/users
+
+###
+POST http://localhost:3005/users HTTP/1.1
+Content-Type: application/json
+
+ {
+    "name":"dhbnjij",
+    "age":"24"
+ }
+
+#  ###
+
+ 
+#  PUT http://localhost:3005/users/3 HTTP/1.1
+#  Content-Type: application/json
+
+#  {
+#     "name": "sunil",
+#     "age": 26
+# }
+
+
+# ###
+
+# DELETE http://localhost:3005/users/3 HTTP/1.1
+
+
+
+#  http://localhost:3005/tasks
+
+#  POST http://localhost:3005/tasks HTTP/1.1
+# Content-Type: application/json
+
+# {
+#    "taskdec":"rega",
+#    "taskstatus":"complete"
+# }
+
+
+# POST http://localhost:3005/tasks HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "taskdec":"sjnsjiv",
+#     "taskstatus":"ckwk"
+# }
+
+# http://localhost:3005/tasks
+
+
+http://localhost:3005/users/1 HTTP 1.1

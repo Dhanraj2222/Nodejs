@@ -1,0 +1,21 @@
+{
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "node-pg-migrate",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "migrate": "^2.1.0",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
