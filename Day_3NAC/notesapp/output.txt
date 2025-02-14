@@ -1,0 +1,97 @@
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js
+{ _: [], '$0': 'app.js' }
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js add
+app.js add
+
+the Adding a note
+
+Options:
+  --help     Show help                                 [boolean]  --version  Show version number                       [boolean]  --title    note title                      [string] [required]  --body     note body                       [string] [required]
+Missing required arguments: title, body
+true
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js add "the coading ex"
+app.js add
+
+the Adding a note
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+  --title    note title                                      [string] [required]
+  --body     note body                                       [string] [required]
+
+Missing required arguments: title, body
+true
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js add  titlt="the rer"
+app.js add
+
+the Adding a note
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+  --title    note title                                      [string] [required]
+  --body     note body                                       [string] [required]
+
+Missing required arguments: title, body
+true
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js --title="demand" --body="nodejs" 
+{ _: [], title: 'demand', body: 'nodejs', '$0': 'app.js' }
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js list                            
+Your Notes
+Gameing
+staging
+{ _: [ 'list' ], '$0': 'app.js' }
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js --title="Gaming"
+{ _: [], title: 'Gaming', '$0': 'app.js' }
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js  add --title="demand" --body="nodejs" 
+new note added
+{ _: [ 'add' ], title: 'demand', body: 'nodejs', '$0': 'app.js' }
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js list
+Your Notes
+Gameing
+staging
+demand
+{ _: [ 'list' ], '$0': 'app.js' }
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js remove title="demand"  
+app.js remove
+
+removing the note
+
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+  --title    note title                                      [string] [required]
+
+Missing required argument: title
+true
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js list                 
+Your Notes
+Gameing
+staging
+demand
+{ _: [ 'list' ], '$0': 'app.js' }
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js remove --title="demand"
+{ _: [ 'remove' ], title: 'demand', '$0': 'app.js' }
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>node app.js list
+Your Notes
+Gameing
+staging
+{ _: [ 'list' ], '$0': 'app.js' }
+
+C:\Users\dhpatil\Desktop\Nodejs\Day_3\notesapp>
